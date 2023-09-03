@@ -61,9 +61,18 @@
         <section class="dark">
             <div class="dark-container container">
                 <h1 class="dark-title">Effective Solutions for Your Business</h1>
-                <button class="btm btm-dark-accent" type="button">
+                <button class="btm btm-dark-accent" type="button" data-modal-open>
                     Order Service
                 </button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button class="modal-btn" type="button" data-modal-close>
+                            <svg class="modal-btn-icon" width="24" height="24">
+                                <use href="./images/sprite.svg#icon-close"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -74,6 +83,11 @@
 
                 <ul class="advantages-list list">
                     <li class="advantages-item">
+                        <div class="advantages-thumb">
+                            <svg class="advantages-icon" width="64" height="64">
+                                <use href="./images/sprite.svg#icon-antenna"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantages-subtitle">Strategy</h3>
                         <p class="advantages-text text">
                             Our goal is to identify the business problem to walk away with
@@ -82,6 +96,11 @@
                     </li>
 
                     <li class="advantages-item">
+                        <div class="advantages-thumb">
+                            <svg class="advantages-icon" width="64" height="64">
+                                <use href="./images/sprite.svg#icon-clock"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantages-subtitle">Punctuality</h3>
                         <p class="advantages-text text">
                             Bring the key message to the brand's audience for the best price
@@ -90,6 +109,11 @@
                     </li>
 
                     <li class="advantages-item">
+                        <div class="advantages-thumb">
+                            <svg class="advantages-icon" width="64" height="64">
+                                <use href="./images/sprite.svg#icon-diagram"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantages-subtitle">Diligence</h3>
                         <p class="advantages-text text">
                             Research and confirm brands that present the strongest digital
@@ -98,6 +122,11 @@
                     </li>
 
                     <li class="advantages-item">
+                        <div class="advantages-thumb">
+                            <svg class="advantages-icon" width="64" height="64">
+                                <use href="./images/sprite.svg#icon-astronaut"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantages-subtitle">Technologies</h3>
                         <p class="advantages-text text">
                             Design practice focused on digital experiences. We bring forth a
@@ -144,6 +173,44 @@
                         <div class="team-container">
                             <h3 class="team-subtitle">Mark Guerrero</h3>
                             <p class="team-text text">Product Designer</p>
+                            <ul class="team-socials-list list">
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://instagram.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Instagram icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://twitter.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Twitter icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://facebook.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Facebook icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://linkedin.com/" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Linkedin icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
 
@@ -155,6 +222,44 @@
                         <div class="team-container">
                             <h3 class="team-subtitle">Tom Ford</h3>
                             <p class="team-text text">Frontend Developer</p>
+                            <ul class="team-socials-list list">
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://instagram.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Instagram icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://twitter.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Twitter icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://facebook.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Facebook icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://linkedin.com/" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Linkedin icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
 
@@ -166,6 +271,44 @@
                         <div class="team-container">
                             <h3 class="team-subtitle">Camila Garcia</h3>
                             <p class="team-text text">Marketing</p>
+                            <ul class="team-socials-list list">
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://instagram.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Instagram icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://twitter.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Twitter icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://facebook.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Facebook icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://linkedin.com/" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Linkedin icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
 
@@ -177,6 +320,44 @@
                         <div class="team-container">
                             <h3 class="team-subtitle">Daniel Wilson</h3>
                             <p class="team-text text">UI Designer</p>
+                            <ul class="team-socials-list list">
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://instagram.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Instagram icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://twitter.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Twitter icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://facebook.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Facebook icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-socials-item">
+
+                                    <a class="team-socials-link" href="https://linkedin.com/" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Linkedin icon"><svg
+                                            class="team-socials-icon" width="16" height="16">
+                                            <use href="./images/sprite.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                 </ul>
@@ -195,6 +376,8 @@
             </p>
         </div>
     </footer>
+
+    <script src="./js/modal.js" type="module"></script>
 </body>
 
 </html>
