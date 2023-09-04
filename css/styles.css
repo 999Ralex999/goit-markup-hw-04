@@ -163,10 +163,10 @@ img {
     margin: 0 auto;
 }
 
-.container {
+/* .container {
     outline: 2px solid rgb(7, 223, 47);
     outline-offset: -2px;
-}
+} */
 
 /**
   |============================
@@ -207,6 +207,7 @@ img {
     height: 4px;
     background-color: var(--ocean);
     border-radius: 2px;
+    width: 100%;
 }
 
 .header-nav-list {
@@ -215,6 +216,7 @@ img {
     gap: 40px;
     justify-content: space-between;
 }
+
 
 .header-nav-item {
     position: relative;
@@ -502,6 +504,7 @@ img {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
+    background-color: red;
 }
 
 .footer-logo-accent {
