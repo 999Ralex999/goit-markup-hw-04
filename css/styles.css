@@ -223,6 +223,10 @@ img {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.current {
+    color: var(--ocean);
+}
+
 .current::after {
     content: '';
     position: absolute;
@@ -233,6 +237,7 @@ img {
     border-radius: 2px;
     width: 100%;
     opacity: 1;
+
 }
 
 .header-nav-link:hover::after,
@@ -769,8 +774,12 @@ img {
 } */
 .portfolia-link:hover .porfolia-img-text,
 .portfolia-link:focus .porfolia-img-text {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0%);
+}
+
+.portfolia-link:hover,
+.portfolia-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* .pages-list-item-link:focus .app-info,
